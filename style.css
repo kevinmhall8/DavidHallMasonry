@@ -13,6 +13,7 @@ body{
     font-family: 'Lora', serif;
 }
 
+
 .covid-19{
     text-align: center;
     color: white;
@@ -25,6 +26,9 @@ nav{
     background: white;
     height: 80px;
     width: 100%;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    
 }
 label.logo{
     color: white;
@@ -38,19 +42,21 @@ label.logo{
     max-width: 85%;
     margin-top: 4px;
 }
-
+.fa{
+    text-decoration: none;
+}
 nav ul {
     float: right;
     margin-right: 20px; /*check if should be 60*/
 }
 
-nav ul li{
+nav ul .nav-link{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
 
-nav ul li a{
+nav ul .nav-link a{
     color: #4a1e15;
     font-weight: 500;
     font-size: 18px;
@@ -83,6 +89,10 @@ a.active, a:hover{
     cursor: pointer;
     display: none;
 }
+
+#phone-main{
+    color: #4a1e15;
+}
 a{
     color: inherit;
 }
@@ -96,7 +106,7 @@ a{
         font-size: 30px;
         padding-left: 50px;
     }
-    nav ul li a {
+    nav ul .nav-link a {
         font-size: 16px;
     }
 }
@@ -106,7 +116,16 @@ a{
         display: block;
         margin-right: 40px;
     }
-    ul{
+
+    .upper-footer {
+        padding: 0 10px 0 10px;
+        font-size: 16px;
+        padding-top: 40px;
+        background-color: #164036;
+        color: white;
+        height: 500px;
+    }
+    .nav-links{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -116,12 +135,12 @@ a{
         text-align: center;
         transition: all .5s;
     }
-    nav ul li{
+    nav ul .nav-link{
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    nav ul .nav-link a{
         font-size: 20px;
     }
     /* a:hover, a.active{
@@ -141,4 +160,144 @@ a{
     nav ul li a {
         font-size: 16px;
     }
+}
+
+.upper-footer {
+    align-items: flex-start;
+    font-size: 16px;
+    padding-top: 40px;
+    background-color: #164036;
+    color: white;
+    height: 500px;
+}
+
+footer {
+    font-family: 'Lora', serif;
+    /* font-size: 20px; */
+    text-decoration: none;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    /* padding-top: 30px; */
+    left: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    color: #4a1e15;
+    
+}
+
+.city-block{
+    padding-left: 35px;
+    
+}
+
+.city-list{
+    list-style-type: initial;
+}
+
+.list-city{
+    list-style-type: initial;
+}
+
+.phone-link {
+    color: white;
+    text-decoration: none;
+}
+
+.phone-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.icon-row{
+    display: flex;
+    text-align: center;
+}
+
+.icon-row-column{
+    margin: 0 15px 0 15px;
+}
+
+.fb-link {
+    color: white;
+    text-decoration: none;
+}
+
+.fb-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.email-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.address-title{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.footer-text{
+    padding: 5px 0 5px 0;
+}
+hr {
+    border: 1px solid grey;
+    max-width: 200px;
+  }
+
+.privacy-policy-link {
+    font-size: 14px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+.privacy-policy-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.employment-application-link {
+    font-size: 14px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+.employment-application-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-us-link {
+    font-size: 14px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+.contact-us-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.hero {
+    /* background: #164036; */
+    height: 80vh;
 }
