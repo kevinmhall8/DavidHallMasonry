@@ -109,6 +109,7 @@ a{
     }
     nav ul .nav-link a {
         font-size: 16px;
+
     }
 }
 
@@ -168,6 +169,7 @@ a{
     padding: 40px 0 0 0;
     background-color: #164036;
     color: white;
+    border-top: 5px solid #4a1e15;
     max-width: 100%;
     height: 500px;
 }
@@ -243,25 +245,16 @@ footer {
     text-decoration: none;
 }
 
-/* .city-column{
-    padding: 0 0 0 10px;
-    margin-left: 10px;
-} */
-
-/* .column {
-    padding: 0;
-} */
-
 .address-title{
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     margin: 0;
     padding: 0;
 }
 
 .footer-text{
-    padding: 5px 0 0 0px 0;
+    padding: 10px 0 5px 0;
 }
 
 .footer-hr {
@@ -287,7 +280,7 @@ footer {
 .employment-application-link {
     font-size: 14px;
     margin-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
     color: white;
     text-decoration: none;
     font-family: 'Lora', serif;
@@ -313,12 +306,23 @@ footer {
 }
 
 .hero {
-    background-color:  #4a1e15;
     color: white;
     width: 100%;
-    padding-top: 120px;
     font-family: 'Lora', serif;
+}
+
+.main-hero {
+background-color:  dimgray;
+}
+
+.index-hero{
+    padding-top: 120px;
     max-height: 650px;
+}
+
+.about-text {
+    text-transform: uppercase;
+    color: #4a1e15;
 }
 
 .hero-h1 {
@@ -380,6 +384,10 @@ footer {
         font-size: 30px;
     }
 
+    .address-title{
+        font-size: 18px;
+    }
+
     .upper-footer {
         padding: 0 10px 0 0px; 
         font-size: 14px;
@@ -387,7 +395,7 @@ footer {
         background-color: #164036;
         color: white;
         max-width: 100%;
-        height: 500px;
+        height: 450px;
     }
 }
 
@@ -415,4 +423,103 @@ footer {
 .contact-us-button:hover{
     background-color: #8ba09b;
     cursor: pointer;
+}
+
+.icon-column {
+    color: #4a1e15;
+    padding: 12px 0 12px 0;
+}
+
+.fa-icon-row {
+    text-align: center;
+    font-family: 'Lora', serif;
+    /* display:flex; */
+    padding-top: 20px;
+}
+
+.qwe {
+    text-align: center;
+    color: #4a1e15;
+    font-family: 'Lora', serif;
+    padding: 16px 0 16px 0;
+}
+
+@media (max-width: 858px) {
+    .qwe {
+        font-size: 14px;
+    }
+
+    .fa-icon-row {
+        font-size: 14px;
+    }
+}
+
+.building-img {
+    max-height: 200px;
+    max-width: 300px;
+    box-shadow: 0 6px 6px 0;
+}
+
+.contact-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4a1e15;
+}
+
+.contact-form {
+    background-color: #4a1e15;
+    max-width: 600px;
+    padding: 24px 10px 24px 10px;
+    /* margin: 24px; */
+    margin: 0 auto;
+    /* border-style: solid;
+    outline-offset: 4px; */
+    outline: 1px solid white;
+    outline-offset: -10px;
+}
+
+.label-text {
+    color: white;
+    text-emphasis: none;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+label {
+    font-family: 'Lora', serif;
+
+}
+
+.contact-header {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-submit-button {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: white;
+    background-color: #164036;
+    padding: 10px 12px 10px 12px;
+    margin-top: 10px;
+    border: none;
+}
+
+.form-field {
+    margin: 0 20px 0 20px;
+    max-width: 100%;
+}
+
+.form-submit-field {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+p {
+    font-family: 'Lora', serif;
 }
