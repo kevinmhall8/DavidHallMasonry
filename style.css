@@ -167,9 +167,10 @@ a{
     align-items: flex-start;
     font-size: 16px;
     padding: 40px 0 0 0;
-    background-color: #164036;
+    background-color: #4a1e15;
+    /* background-image: url("./assets/photos/footerwallpaper.jpg"); */
     color: white;
-    border-top: 5px solid #4a1e15;
+    border-top: 5px solid #164036;
     max-width: 100%;
     height: 500px;
 }
@@ -253,6 +254,15 @@ footer {
     padding: 0;
 }
 
+.map-and-directions-link {
+    color: white;
+}
+
+.map-and-directions-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .footer-text{
     padding: 10px 0 5px 0;
 }
@@ -303,6 +313,7 @@ footer {
 .contact-us-link:hover{
     color: white;
     text-decoration: none;
+    
 }
 
 .hero {
@@ -312,7 +323,30 @@ footer {
 }
 
 .main-hero {
-background-color:  dimgray;
+/* background-color:  dimgray; */
+background-image: url("./assets/photos/indexphoto.jpg");
+background-position: center;
+/* background-attachment: fixed;  */
+/* glues background image */
+background-size: 100% auto;
+display: flex;
+background-size: cover;
+height: 900px;
+outline: 2px solid white;
+outline-offset: -20px;
+}
+
+.column-1 {
+    max-width: 50%;
+    float: left;
+}
+
+.column-2 {
+    max-width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'khula', serif;     
+    margin: 0 auto;
 }
 
 .index-hero{
@@ -330,19 +364,20 @@ background-color:  dimgray;
     font-family: 'Lora', serif;
     letter-spacing: 10px;
     color: white;
-    font-size: 50px;
+    font-size: 72px;
     font-weight: bold;
     margin-bottom: 12px;
+    padding-top: 160px;
 }
 
 
 
 .hero-h2 {
     padding: 15px 0 15px 0;
-    color: #8ba09b;
+    color: white;
     font-weight: bold;
     font-family: 'Lora', serif;
-    font-size: 50px;
+    font-size: 58px;
     text-align: center;
 }
 
@@ -371,13 +406,22 @@ background-color:  dimgray;
 }
 
 @media (max-width: 858px){
+
+    .main-hero {
+        outline: none;
+        max-height: 500px;
+        width: 100%;
+        height: 500px;
+        }
+
     .hero{
-        padding-top: 150px;
+        padding-top: 20px;
     }
 
     .hero-h1{
         font-size: 30px;
         margin-bottom: 16px;
+        padding-top: 60px;
     }
 
     .hero-h2{
@@ -399,9 +443,22 @@ background-color:  dimgray;
     }
 }
 
+
+
 @media (max-width: 600px){
     .hero-h2{
         font-size: 24px;
+    }
+}
+
+@media (max-width: 410px) {
+    .main-hero {
+        /* padding-top: 80px; */
+        height: 1000px;
+    }
+
+    .hero-h2{
+        font-size: 20px;
     }
 }
 
@@ -416,13 +473,67 @@ background-color:  dimgray;
     color: white;
     background-color: #164036;
     padding: 25px 35px 25px 35px;
-    margin-top: 10px;
+    margin-top: 16px;
     border: none;
 }
 
 .contact-us-button:hover{
-    background-color: #8ba09b;
+    /* background-color: #8ba09b; */
     cursor: pointer;
+    outline: 2px solid white;
+    outline-offset: 5px;
+}
+
+.secondary-hero {
+    /* height: 500px; */
+    display: flex;
+    /* max-height: 100%; */
+    background-color: white;
+    color: #4a1e15;
+    text-transform: uppercase;
+    /* border: 5px solid #4a1e15; */
+    margin-bottom: 20px;
+    /* column-count: 2; */
+}
+
+.definition {
+    text-align: center;
+    font-family: 'khula', serif; 
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.definition-2 {
+    text-align: center;
+    font-family: 'khula', serif; 
+    /* color: grey; */
+    font-size: 24px;
+}
+
+.introduction {
+    /* margin-left: 100px; */
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'khula', serif; 
+    display: inline-block;
+    /* max-width: 35%; */
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.secondary-text {
+    font-family: 'khula', serif; 
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid grey;
+    padding: 12px;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+}
+
+.secondary-about-us {
+    margin-top: 50px;
+    text-align: center;
 }
 
 .icon-column {
@@ -437,6 +548,41 @@ background-color:  dimgray;
     padding-top: 20px;
 }
 
+.about-us-link-box {
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    margin-left: 5%;
+}
+
+.about-us-photo-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blue; */
+    width: 600px;
+    height: 330px;
+    background-image: url("./assets/photos/SurgicalArtistryFinal.jpg");
+    background-size: cover;
+    background-size: 100% auto;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-top: 20px;
+    
+}
+
+.about-us-link-text {
+    font-family: 'khula', serif; 
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    padding-top: 165px;
+    font-size: 30px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 .qwe {
     text-align: center;
     color: #4a1e15;
@@ -445,6 +591,7 @@ background-color:  dimgray;
 }
 
 @media (max-width: 858px) {
+
     .qwe {
         font-size: 14px;
     }
@@ -502,12 +649,19 @@ label {
 .form-submit-button {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     background-color: #164036;
-    padding: 10px 12px 10px 12px;
+    /* padding: 10px 12px 10px 12px; */
+    padding: 25px 35px 25px 35px;    
     margin-top: 10px;
     border: none;
+}
+
+.form-submit-button:hover {
+    cursor: pointer;
+    outline: 2px solid white;
+    outline-offset: 5px;
 }
 
 .form-field {
