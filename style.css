@@ -1,6 +1,10 @@
 /* DHMAS RED: #4a1e15
 DHMAS GREEN: #164036 */
 
+html, body {
+    height: 100%;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +23,11 @@ body{
     background-color: #164036;
     font-family: 'Lora', serif;
     padding: 4px 0 4px 0;
+}
+
+.invisible-div{
+    height: 80px;
+    display: none;
 }
 
 nav{
@@ -117,6 +126,10 @@ a{
     .checkbtn{
         display: block;
         margin-right: 40px;
+    }
+    .invisible-div{
+        height: 80px;
+        display: block;
     }
 
     nav {
@@ -321,10 +334,9 @@ footer {
     width: 100%;
     font-family: 'Lora', serif;
 }
-
 .main-hero {
-/* background-color:  dimgray; */
-background-image: url("./assets/photos/indexphoto.jpg");
+    /* height: 100%; */
+background: url("./assets/photos/indexphoto.jpg");
 background-position: center;
 /* background-attachment: fixed;  */
 /* glues background image */
@@ -334,6 +346,132 @@ background-size: cover;
 height: 900px;
 outline: 2px solid white;
 outline-offset: -20px;
+}
+
+
+.container-main {
+    height: 100%;
+    background: url("./assets/photos/indexphoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-form-hero {
+    background-image: url("./assets/photos/Metro7.jpeg");
+    background-size: cover;
+    /* background-size: 100% auto; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear gradient(rgbaa(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5), url("./assets/photos/Metro7.jpeg")); */
+    height: 100%;
+    /* filter: grayscale(1); */
+    text-align: center;
+    font-family: 'khula', serif;
+}
+
+.contact-form {
+    margin: auto;
+    margin-top: 15%;
+    width: 500px;
+    /* height: 500px; */
+    background-color: rgba(74, 30, 21, 0.7);
+}
+
+.contact-title {
+    /* margin-top: 200px; */
+    color: white;
+    text-transform: uppercase;
+    /* transition: all 4s ease-in-out; */
+}
+.contact-title h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 525px){
+.contact-form{
+    margin-top: 35%;
+    width: 100%;
+}
+
+}
+
+
+/* form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+} */
+
+input::placeholder {
+    color: white;
+}
+
+textarea {
+    height: 80px;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.form-control {
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.form-control-submit {
+    width: 400px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form-control-submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+@media (max-width: 858px){
+    .form-control {
+        max-width: 300px;
+    }
+
+    .form-control-submit {
+        max-width: 300px;
+    }
+
 }
 
 .column-1 {
@@ -459,6 +597,15 @@ outline-offset: -20px;
 
     .hero-h2{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 350px){
+    .hero-hr{
+        display: none;
+    }
+    .hero-h2{
+        display: none;
     }
 }
 
@@ -610,20 +757,11 @@ outline-offset: -20px;
 .contact-header {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #4a1e15;
+    color: white;
+    /* height: 400px; */
 }
 
-.contact-form {
-    background-color: #4a1e15;
-    max-width: 600px;
-    padding: 24px 10px 24px 10px;
-    /* margin: 24px; */
-    margin: 0 auto;
-    /* border-style: solid;
-    outline-offset: 4px; */
-    outline: 1px solid white;
-    outline-offset: -10px;
-}
+
 
 .label-text {
     color: white;

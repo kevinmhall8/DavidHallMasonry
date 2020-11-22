@@ -35,67 +35,25 @@
             <li class="nav-link"><a class="active" href="#">Contact Us</a></li>
         </ul>
     </nav>
-
-    <div class="hero">
-        <div class="contact-header">
-            <h2 class="is-size-4">WE GUARANTEE 24 HOUR RESPONSE ON ALL INQUIRIES, FREE ESTIMATES AND BUDGET PRICING.</h2>
+    <div class="invisible-div" disabled></div>
+    <div class="hero contact-form-hero">
+      <div class="column contact-form-column is-centered">
+        <div class="contact-title">
+            
+            <div class="contact-form">
+                <form id="contact-form">
+                    <h1>Contact Us</h1>
+                    <!-- <h2> We Guarantee 24 hour response on all inquiries, Free Estimates and Budget Pricing</h2> -->
+          <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+          <br>
+          <input name="email" type="text" class="form-control" placeholder="Your Email" required>
+          <br>
+          <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+          <br>
+          <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+        </form>
         </div>
-        <div class="column">
-        <div class="contact-form-container">
-        <div class="contact-form">
-            <div class="row form-row">
-            <div class="field form-field">
-            <label class="label form-text"><p class="label-text">First Name </p></label>
-            <div class="control">
-              <input class="input" type="text" placeholder="First Name">
-            </div>
-          </div>
-
-          <div class="field form-field">
-            <label class="label form-text"><p class="label-text">Last Name </p></label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Last Name">
-            </div>
-          </div>
-        </div>
-
-        <div class="row form-row">
-          <div class="field form-field">
-            <label class="label form-text"><p class="label-text"> Email </p></label>
-            <div class="control">
-              <input class="input" type="email" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="field form-field">
-            <label class="label form-text"><p class="label-text">Phone</p></label>
-            <div class="control">
-              <input class="input" type="email" placeholder="Phone">
-            </div>
-          </div>
-        </div>
-          
-          <div class="field form-field">
-            <label class="label form-text"><p class="label-text"> Subject </p></label>
-            <div class="control">
-                <input class="input" type="email" placeholder="Subject">
-            </div>
-          </div>
-          
-          <div class="field form-field">
-            <label class="label form-text"><p class="label-text"> Message </p></label>
-            <div class="control">
-              <textarea class="textarea" placeholder="Message"></textarea>
-            </div>
-          </div>
-          
-          <div class="field form-submit-field">
-            <div class="control">
-              <button class="form-submit-button">SEND INFORMATION</button>
-            </div>
-        </div>
-          </div>
-          </div>
+      </div>
     </div>
 </div>
 
