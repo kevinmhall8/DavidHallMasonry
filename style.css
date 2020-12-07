@@ -358,7 +358,7 @@ outline-offset: -20px;
 }
 
 .contact-form-hero {
-    background-image: url("./assets/photos/Metro7.jpeg");
+    background-image: url("./assets/photos/galleryphotos/6-Metro\ Crossing-Clubhouse_Cabana\ 1.jpg");
     background-size: cover;
     /* background-size: 100% auto; */
     background-position: center;
@@ -376,6 +376,7 @@ outline-offset: -20px;
     width: 500px;
     /* height: 500px; */
     background-color: rgba(74, 30, 21, 0.7);
+    background-color: rgba(54, 69, 79, 0.7);
 }
 
 .contact-title {
@@ -845,7 +846,7 @@ p {
 
 
 
-
+/* Gallery CSS -- DO NOT CHANGE */
 
 .hello {
     opacity: 1 !important;
@@ -997,3 +998,15 @@ p {
   .upper-footer-gallery {
       margin-top: 1000px;
   }
+  /* End of Gallery CSS */
+
+.gallerytitle {
+    text-align: Center;
+    color: #4a1e15;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
