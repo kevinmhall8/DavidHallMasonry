@@ -440,6 +440,7 @@ textarea::placeholder {
     background: transparent;
     border: 1px solid white;
     outline: none;
+    cursor: pointer;
     border-bottom: 1px solid white;
     color: white;
     font-size: 18px;
@@ -627,15 +628,26 @@ form .submit:hover {
 }
 
 .contact-us-button{
+    
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 20px;
     color: white;
     background-color: #164036;
-    padding: 25px 35px 25px 35px;
+    padding: 16px 16px 16px 16px;
     margin-top: 16px;
+    letter-spacing: 2px;
     border: none;
+    
 }
+
+.about-txt {
+    font-size: 20px;
+}
+
+/* .contact-link {
+    text-decoration: none;
+} */
 
 .contact-us-button:hover{
     /* background-color: #8ba09b; */
@@ -658,16 +670,20 @@ form .submit:hover {
 
 .definition {
     text-align: center;
-    font-family: 'khula', serif; 
-    font-size: 32px;
+    font-family: 'khula', serif;
+    color: #4a1e15;
+    font-size: 40px;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .definition-2 {
     text-align: center;
     font-family: 'khula', serif; 
-    /* color: grey; */
-    font-size: 24px;
+    color: #4a1e15;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .introduction {
@@ -723,7 +739,7 @@ form .submit:hover {
     /* background-color: blue; */
     width: 600px;
     height: 330px;
-    background-image: url("./assets/photos/SurgicalArtistryFinal.jpg");
+    background-image: url("./assets/photos/DHMSign.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -742,6 +758,7 @@ form .submit:hover {
     font-size: 30px;
     padding-left: auto;
     padding-right: auto;
+    text-transform: uppercase;
 }
 
 @media (max-width: 1300px){
@@ -749,6 +766,11 @@ form .submit:hover {
         display: flex;
         width: 500px;
     }
+}
+
+.sign-img {
+    outline: 2px solid white;
+    outline-offset: -12px;
 }
 
 .qwe {
