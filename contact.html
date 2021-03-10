@@ -41,9 +41,8 @@
         <div class="contact-title">
             
             <div class="contact-form">
-                <form id="contact-form">
+                <form id="contact-form" method="post" action="contact-form-handler.php">
                     <h1>Contact Us</h1>
-                    <!-- <h2> We Guarantee 24 hour response on all inquiries, Free Estimates and Budget Pricing</h2> -->
           <input name="name" type="text" class="form-control" placeholder="Your Name" required>
           <br>
           <input name="email" type="text" class="form-control" placeholder="Your Email" required>
@@ -51,6 +50,9 @@
           <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
           <br>
           <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+                              <h2 class="email-sent"> Email Sent</h2>
+                              <br />
+
         </form>
         </div>
       </div>
@@ -63,13 +65,11 @@
                 <div class="column">
                     <ul class="city-list"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Servicing:
                         <div class="city-block">
-                            <li class="list-city">Stockton</li>
-                            <li class="list-city">Modesto</li>
-                            <li class="list-city">Merced</li>
-                            <li class="list-city">Fresno</li>
-                            <li class="list-city">Sacramento</li>
-                            <li class="list-city">Manteca</li>
-                            <li class="list-city">and more!</li>
+                            <li class="list-city">Central Valley</li>
+                            <li class="list-city">Sacramento Area</li>
+                            <li class="list-city">East and South SF Bay Area</li>
+                            <li class="list-city">SF Peninsula</li>
+                            <li class="list-city">Gold Country-Mother Lode</li>
                         </div>
                     </ul>
                     <hr class="footer-hr">

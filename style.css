@@ -3,6 +3,7 @@ DHMAS GREEN: #164036 */
 
 html, body {
     height: 100%;
+    /* font-family: 'khula', sans-serif; */
 }
 
 *{
@@ -13,17 +14,17 @@ html, body {
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: 'Lora', serif;
-}
+} */
 
-.covid-19{
+/* .covid-19{
     text-align: center;
     color: white;
     background-color: #164036;
     font-family: 'Lora', serif;
     padding: 4px 0 4px 0;
-}
+} */
 
 .invisible-div{
     height: 80px;
@@ -35,6 +36,7 @@ nav{
     height: 80px;
     width: 100%;
     font-family: 'Lora', serif;
+    /* font-family: 'Courier New', Courier, monospace; */
     text-decoration: none;
 }
 
@@ -66,7 +68,8 @@ nav ul .nav-link{
 }
 
 nav ul .nav-link a{
-    color: #4a1e15;
+    /* color: #4a1e15; */
+    color: rgba(54, 69, 79);
     font-weight: 500;
     font-size: 18px;
     padding: 7px 13px;
@@ -81,7 +84,8 @@ a.active, a:hover{
 
 .checkbtn{
     font-size: 30px;
-    color: #4a1e15;
+    /* color: #4a1e15; */
+    color: rgba(54, 69, 79);
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -200,8 +204,10 @@ footer {
     height: 100px;
     width: 100%;
     overflow: hidden;
-    font-family: 'Lora', serif;
-    color: #4a1e15;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Khula';
+    /* color: #4a1e15; */
+    color: rgba(54, 69, 79);
     
 }
 
@@ -446,26 +452,40 @@ textarea::placeholder {
     color: white;
     font-size: 18px;
     margin-bottom: 16px;
+
 }
 
 input {
     height: 45px;
 }
 
-form-control-submit {
-    background: #ff5722;
-    border-color: transparent;
+.form-control-submit {
+    width: 400px;
+    background: transparent;
+    /* background: rgba(54, 69, 79); */
+    border:0.1em solid white;
+    /* border-color: transparent; */
     color: #fff;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
-form .submit:hover {
-    background-color: #f44336;
+.email-sent {
+    display: none;
+}
+
+.form-control-submit:hover {
+    background-color: #4a1e15;
     cursor: pointer;
+    transition: all 0.5s;
+    outline: 2px solid white;
+    outline-offset: 5px;
+
 }
 
 @media (max-width: 858px){
@@ -508,8 +528,18 @@ form .submit:hover {
 }
 
 .about-text {
-    text-transform: uppercase;
-    color: #4a1e15;
+    /* text-transform: uppercase; */
+    /* color: #4a1e15; */
+    color: rgba(54, 69, 79);
+    font-family: 'Lora', serif;
+    /* font-family: inherit; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 24px;
+    /* font-size: 24rem; */
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    /* text-rendering: optimizeLegibility; */
 }
 
 .hero-h1 {
@@ -632,17 +662,29 @@ form .submit:hover {
 .contact-us-button{
     
     text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    /* font-family: 'Lora', serif; */
+    font-size: 24px;
     color: white;
     /* background-color: #164036; */
-    background-color:  rgba(54, 69, 79, 0.7);
+    background-color:  rgba(54, 69, 79);
     padding: 16px 16px 16px 16px;
     margin-top: 16px;
     letter-spacing: 2px;
     border: none;
-    
-}
+    /* padding:0.46em 1.6em; */
+    border:0.1em solid white;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    /* background-color:#FFFFFF; */
+    text-align:center;
+    transition: all 0.5s;
+    /* background-color: rgba(54, 69, 79, 0.7); */
+}   
 
 .about-txt {
     font-size: 20px;
@@ -660,6 +702,9 @@ form .submit:hover {
 
 .contact-us-button:hover{
     /* background-color: #8ba09b; */
+    background-color: #4a1e15;
+    /* background-color: black; */
+    /* background-color: white; */
     cursor: pointer;
     outline: 2px solid white;
     outline-offset: 5px;
@@ -680,7 +725,7 @@ form .submit:hover {
 .definition {
     text-align: center;
     font-family: 'khula', serif;
-    color: #4a1e15;
+    color: rgba(54, 69, 79);;
     font-size: 40px;
     margin-top: 20px;
     text-transform: uppercase;
@@ -689,7 +734,7 @@ form .submit:hover {
 .definition-2 {
     text-align: center;
     font-family: 'khula', serif; 
-    color: #4a1e15;
+    color: rgba(54, 69, 79);;
     font-size: 32px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -698,8 +743,11 @@ form .submit:hover {
 .introduction {
     /* margin-left: 100px; */
     margin-top: 50px;
-    font-size: 16px;
-    font-family: 'khula', serif; 
+    font-size: 18px;
+    line-height: 1.8;
+    color:rgba(54, 69, 79);
+    /* font-family: 'khula', serif;  */
+    font-family:'Roboto',sans-serif;
     display: inline-block;
     /* max-width: 35%; */
     padding-right: 20px;
@@ -711,6 +759,7 @@ form .submit:hover {
     text-align: center;
     font-size: 16px;
     border: 2px solid grey;
+    text-transform: uppercase;
     padding: 12px;
     /* margin-left: 100px; */
     margin-top: 30px;
@@ -784,7 +833,8 @@ form .submit:hover {
 
 .qwe {
     text-align: center;
-    color: #4a1e15;
+    color: rgba(54, 69, 79);
+    /* color: #4a1e15; */
     font-family: 'Lora', serif;
     padding: 16px 0 16px 0;
 }
@@ -1033,11 +1083,12 @@ p {
 
 .gallerytitle {
     text-align: Center;
-    color: #4a1e15;
+    color: rgba(54, 69, 79);;
     font-family: 'Lora', serif;
+    /* font-family:'Roboto',sans-serif; */
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding-top: 20px;
     padding-bottom: 20px;
 }
