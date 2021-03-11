@@ -44,7 +44,14 @@ label.logo{
     color: white;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 20px;
+    padding: 0 0 0 100px;
+}
+
+@media (max-width: 860px){
+
+    .label.logo{
+        padding: 0 0 0 0;
+    }
 }
 
 #nav-logo{
@@ -55,6 +62,25 @@ label.logo{
 /* .fa{
     text-decoration: none;
 } */
+
+.phonebox {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    border:0.1em solid rgba(54, 69, 79);
+    padding: 8px 2px 8px 2px;
+    margin-top: 6px;
+}
+
+
+@media (max-width: 1105px){
+
+    .phonebox{
+        display: none;
+    }
+}
+
+
 nav ul {
     float: right;
     margin-right: 20px; /*check if should be 60*/
@@ -350,9 +376,10 @@ footer {
     width: 100%;
     font-family: 'Lora', serif;
 }
+
 .main-hero {
     /* height: 100%; */
-background: url("./assets/photos/indexphoto.jpg");
+background: url("./assets/photos/indexphotocpr.jpg");
 background-position: center;
 /* background-attachment: fixed;  */
 /* glues background image */
@@ -374,7 +401,7 @@ outline-offset: -20px;
 }
 
 .contact-form-hero {
-    background-image: url("./assets/photos/galleryphotos/6-Metro\ Crossing-Clubhouse_Cabana\ 1.jpg");
+    background-image: url("./assets/photos/galleryphotos/contactuscpr.jpg");
     background-size: cover;
     /* background-size: 100% auto; */
     background-position: center;
@@ -571,7 +598,7 @@ input {
     text-align: right;
     /* font-style: italic; */
     color: black;
-    font-weight: 500;
+    font-weight: 550;
     opacity: 1.0;
 }
 
@@ -764,7 +791,7 @@ input {
 .opening {
     font-style: italic;
     color: black;
-    font-weight: 500;
+    font-weight: 550;
     opacity: 1.0;
     vertical-align: center;
     padding: 10% 0 0 0;
