@@ -38,8 +38,12 @@
     </nav>
     <div class="invisible-div" disabled></div>
     <div class="column is-centered">
-    <h1 class="gallerytitle is-size-1">Photo Gallery</h1>
-</div>
+        <h1 class="gallerytitle is-size-1">Photo Gallery</h1>
+    </div>
+    <div class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+    <div class="section">
 <!-- <div class="pageloader is-left-to-right"><span class="title">Pageloader</span></div> -->
     <div class="gallery" id="gallery">
         <div class="gallery-item">
@@ -120,6 +124,7 @@
             <div class="content"><img src="./assets/photos/galleryphotos/" alt=""></div>
         </div> -->
     </div>
+</div>
 <br />
 <br />
 
@@ -180,6 +185,17 @@
 
     
     <script>
+        let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+        window.addEventListener('load', function () {
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        })
+
+
+
+
+
+
         var gallery = document.querySelector('#gallery');
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
 var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
