@@ -1,9 +1,5 @@
 
-let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
-window.addEventListener('load', function () {
-    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-})
 
 
 
@@ -42,3 +38,9 @@ item.addEventListener('click', function () {
 item.classList.toggle('full');        
 });
 });
+
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', function () {
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+})
