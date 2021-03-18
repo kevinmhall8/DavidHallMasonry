@@ -36,6 +36,7 @@ nav{
     height: 80px;
     width: 100%;
     font-family: 'Lora', serif;
+    /* font-family: Source Sans Pro; */
     /* font-family: 'Courier New', Courier, monospace; */
     text-decoration: none;
 }
@@ -91,22 +92,56 @@ nav ul .nav-link{
     line-height: 80px;
     margin: 0 5px;
     z-index: 100;
+
 }
 
 nav ul .nav-link a{
     /* color: #4a1e15; */
     color: rgba(54, 69, 79);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 550;
+    font-size: 20px;
     padding: 7px 13px;
     border-radius: 3px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 a.active, a:hover{
     text-decoration: underline;
     transition: .5s; 
 }
+
+/* a.active, a:hover{
+
+    
+} */
+
+
+
+
+/* a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  } */
+
+
+
 
 .checkbtn{
     font-size: 30px;
@@ -1153,8 +1188,8 @@ p {
     left: 50%;
     transform: translate3d(0, 0, 0);
     animation: zoomin 1s ease;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 80%;
+    max-height: 80%;
     margin: auto;
   }
 
