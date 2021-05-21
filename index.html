@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Hall Masonry, Inc.</title>
@@ -10,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
+
+
 
 <body>
     <nav>
@@ -29,10 +33,9 @@
         </label>
         <ul class="nav-links">
             <li class="nav-link"><a class="active" href="#">Home</a></li>
-            <li class="nav-link"><a href="about.html">About Us</a></li>
-            <!-- <li class="nav-link"><a href="#">Services</a></li> -->
-            <li class="nav-link"><a href="gallery.html">Photo Gallery</a></li>
-            <li class="nav-link"><a href="contact.html">Contact Us</a></li>
+            <li class="nav-link"><a class="left" href="about.html">About Us</a></li>
+            <li class="nav-link"><a class="left" href="gallery.html">Photo Gallery</a></li>
+            <li class="nav-link"><a class="left" href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <div class="invisible-div" disabled></div>
@@ -47,62 +50,32 @@
                         <hr class="hero-hr">
                     </div>
                     <h2 class="hero-h2">
-                        Proud to Build Together
+                        209-599-8722
                     </h2>
-                    <!-- <h2 class="hero-h2">
-                        Exceptional Customer Service
-                    </h2> -->
                     <div class="button-container">
-                        <button class="contact-us-button" href="contact.html">
-                            <a class="contact-link" href="contact.html">
-                            Contact Us
-                        </a>
-                        </button>
-
+                        <input type="submit" class="form-control-submit2" value="GET A QUOTE">
                     </div>
                 </div>
             </div>
         </div>
+        <ul class="slideshow">
+            <li><span></span></li>
+            <li><span>2</span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
 
     </div>
+    <!-- <div class="invisible-div" disabled></div> -->
+    <!-- <div class="hero main-hero">
 
-    <!-- <div class="hero secondary-hero">
-        <h3 class="definition">
-            Masonry Contractors Servicing the Central Valley
-        </h3>
-        <h3 class="definition-2">
-            Over 40 Years of Experience
-        </h3>
-        <div class="container">
-            <div class="columns">
-                <div class="column is-half ">
-                    <h3 class="introduction">
-                        We are proud to be a masonry company with over four decades of experience providing services to
-                        the Central Valley, Bay Area, and Northern California Regions. No matter how small or large your
-                        project may be, David Hall Masonry can provide exactly what you are looking for. With our team,
-                        expert advice and expert service are always delivered. </h3>
-                    <div class="secondary-text-box">
-                        <h3 class="secondary-text">
-                            Find out what a difference our experience and dedication can make by calling us at (209)
-                            599-8722!
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="column is-half">
-                    <div class="about-us-link-box">
-                        <div class="about-us-photo-link">
-                            <div class="about-us-link-text">Learn More About Us</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div> -->
+
     <div class="hero">
         <div class="hero-body">
             <h3 class="definition">
-                Masonry Contractors Servicing the Central Valley
+                Masonry Contractors Servicing Northern California
             </h3>
             <h3 class="definition-2">
                 Over 40 Years of Experience
@@ -112,7 +85,14 @@
                     <div class="column is-half">
                         <div class="about-text">
                             <h3 class="introduction">
-                                A family-owned business dedicated to delivering high-quality, cost-effective projects on schedule by employing and supporting motivated, skilled, and professional team members. We aim to establish lasting relationships with our customers by exceeding their expectations and gaining their trust through our dependability, our drive, and our integrity. David Hall Masonry provides superior masonry services that clients recommend to friends and family, employees are proud of, and inspires innovation in the masonry industry. We take great pride in our 40+ years of accomplishments and strive to build on them every day.   </h3>
+                                A family-owned business dedicated to delivering high-quality, cost-effective projects on
+                                schedule by employing and supporting motivated, skilled, and professional team members.
+                                We aim to establish lasting relationships with our customers by exceeding their
+                                expectations and gaining their trust through our dependability, our drive, and our
+                                integrity. David Hall Masonry provides superior masonry services that clients recommend
+                                to friends and family, employees are proud of, and inspires innovation in the masonry
+                                industry. We take great pride in our 40+ years of accomplishments and strive to build on
+                                them every day. </h3>
                             <div class="secondary-text-box">
                                 <h3 class="secondary-text" href="tel:(209) 599-8722">
                                     Find out what a difference our experience and dedication can make by calling us at
@@ -123,21 +103,12 @@
                         </div>
                     </div>
                     <div class="column is-half">
-                        <img src="./assets/photos/DHMsign.jpg"
-                            class="sign-img" />
-                            <!-- <div class="about-us-link-box">
-                                <div class="about-us-photo-link">
-                                    <div class="about-us-link-text">Learn More About Us</div>
-                                </div>
-                            </div>    -->
+                        <img src="./assets/photos/DHMsign.jpg" class="sign-img hideme" />
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
-
     <div class="upper-footer">
         <div class="container">
             <div class="footer-group">
@@ -148,7 +119,7 @@
                             <li class="list-city">Sacramento Area</li>
                             <li class="list-city">East and South SF Bay Area</li>
                             <li class="list-city">SF Peninsula</li>
-                            <li class="list-city">Gold Country-Mother Lode</li>
+                            <li class="list-city">Gold Country - Mother Lode</li>
                         </div>
                     </ul>
                     <hr class="footer-hr">
@@ -164,9 +135,16 @@
                         </div>
                         <div class="icon-row-column">
                             <a href="https://www.facebook.com/pages/category/Contractor/David-Hall-Masonry-168088283775373/"
-                                class="fb-link" title="Facebook">
+                                class="fb-link" title="Facebook" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                            </a> </div>
+                            </a>
+                        </div>
+                        <div class="icon-row-column">
+                            <a href="https://www.facebook.com/pages/category/Contractor/David-Hall-Masonry-168088283775373/"
+                                class="fb-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="column address-column">
@@ -174,10 +152,13 @@
                     <p class="address-title">651 S. Stockton Ave </p>
                     <p class="address-title">Ripon, CA 95366 </p> <br />
                     <a class="map-and-directions-link"
-                        href="https://www.google.com/maps/place/David+Hall+Masonry+Inc/@37.7341286,-121.1271381,17z/data=!3m1!4b1!4m5!3m4!1s0x80904507528f709b:0x658371044dbed239!8m2!3d37.7341244!4d-121.1249494?hl=en">Map
+                        href="https://www.google.com/maps/place/David+Hall+Masonry+Inc/@37.7341286,-121.1271381,17z/data=!3m1!4b1!4m5!3m4!1s0x80904507528f709b:0x658371044dbed239!8m2!3d37.7341244!4d-121.1249494?hl=en"
+                        target="_blank" rel="noopener noreferrer">Map
                         & Directions [+]</a>
                     <hr class="footer-hr">
-                    <a href="assets/EmploymentApplication-2020.pdf" class="employment-application-link">Job Application</a> <br>
+                    <a href="assets/EmploymentApplication-2020.pdf" class="employment-application-link" target="_blank"
+                        rel="noopener noreferrer">Job
+                        Application</a> <br>
                     <a href="privacypolicy.html" class="privacy-policy-link">Privacy Policy</a> <br>
                     <a href="contact.html" class="contact-us-link">Contact Us</a>
                 </div>
@@ -190,11 +171,11 @@
             © 2021 All Rights Reserved
         </p>
     </footer>
-    <script>
+    <!-- <script>
         <button onclick="window.location.href='/contact.html'">Continue</button>
+    </script> -->
+        <script src="script.js"></script>
 
-
-    </script>
 </body>
 
 </html>

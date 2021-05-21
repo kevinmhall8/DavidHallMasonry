@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 <!-- <script>
     let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
@@ -88,92 +90,130 @@ item.addEventListener('click', function () {
     <div class="column is-centered">
         <h1 class="gallerytitle is-size-1">Photo Gallery</h1>
     </div>
-    <div class="spinner-wrapper">
+    <!-- <div class="spinner-wrapper">
         <div class="spinner"></div>
-    </div>
+    </div> -->
     <div class="section">
-<!-- <div class="pageloader is-left-to-right"><span class="title">Pageloader</span></div> -->
-    <div class="gallery" id="gallery">
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/1-Metro Crossing-Clubhouse_Front Elevation (1).jpg " alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/3-Metro Crossing-Clubhouse_Pool Twilight 1 (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/contactuscpr.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/11-Metro Crossing-Clubhouse_Outdoor Kitchen to Pool (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/13-Metro Crossing-Clubhouse_Outdoor Kitchen (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/15-Metro Crossing-Clubhouse_Outdoor Kitchen 2 (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/18-Metro Crossing-Clubhouse_Snack Lounge (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Residence Inn Fairfield Inn & Suites (6).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-31-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-35-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-36-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Save Mart Redding CA Final (28 of 33)-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Save Mart Redding CA Final (29 of 33) edit.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/The Enclave at Del Rio Final 8-18-7-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/The Enclave at Del Rio Final 8-18-11-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/04-Kindred House-Pool Twilight-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/05-Kindred House-Firepit Seating area-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/06-Kindred House-Events Lounge-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/7-Metro Crossing-Clubhouse_Cabana 2 (1).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/Don's Mobile Glass (5 of 8)-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowres/Don's Mobile Glass (6 of 8)-min.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/Don's Mobile Glass Aerial (2 of 3).jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/Residence Inn - Fairfield Inn 7-19-0037.jpg" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/lowerres/SurgicalArtistryFinal.jpg" alt=""></div>
-        </div> 
+        <!-- <div class="pageloader is-left-to-right"><span class="title">Pageloader</span></div> -->
+        <div class="gallery" id="gallery">
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/1-Metro Crossing-Clubhouse_Front Elevation (1).jpg "
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/3-Metro Crossing-Clubhouse_Pool Twilight 1 (1).jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./assets/photos/galleryphotos/lowres/contactuscpr.jpg" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/11-Metro Crossing-Clubhouse_Outdoor Kitchen to Pool (1).jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/13-Metro Crossing-Clubhouse_Outdoor Kitchen (1).jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/15-Metro Crossing-Clubhouse_Outdoor Kitchen 2 (1).jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/18-Metro Crossing-Clubhouse_Snack Lounge (1).jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Residence Inn Fairfield Inn & Suites (6).jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-31-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-35-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Save Mart 1 Final Photos 10-19-36-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Save Mart Redding CA Final (28 of 33)-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/Save Mart Redding CA Final (29 of 33) edit.jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/The Enclave at Del Rio Final 8-18-7-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/The Enclave at Del Rio Final 8-18-11-min.jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/04-Kindred House-Pool Twilight-min.jpg" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/05-Kindred House-Firepit Seating area-min.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/06-Kindred House-Events Lounge-min.jpg" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowres/7-Metro Crossing-Clubhouse_Cabana 2 (1).jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/Don's Mobile Glass (5 of 8)-min.jpg" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./assets/photos/galleryphotos/lowres/Don's Mobile Glass (6 of 8)-min.jpg"
+                        alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/Don's Mobile Glass Aerial (2 of 3).jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img
+                        src="./assets/photos/galleryphotos/lowerres/Residence Inn - Fairfield Inn 7-19-0037.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./assets/photos/galleryphotos/lowerres/SurgicalArtistryFinal.jpg" alt="">
+                </div>
+            </div>
 
-        <!-- <div class="gallery-item">
-            <div class="content"><img src="./assets/photos/galleryphotos/" alt=""></div>
-        </div> -->
+        </div>
     </div>
-</div>
-<br />
-<br />
+    <br />
+    <br />
 
 
 
@@ -205,19 +245,30 @@ item.addEventListener('click', function () {
                         </div>
                         <div class="icon-row-column">
                             <a href="https://www.facebook.com/pages/category/Contractor/David-Hall-Masonry-168088283775373/"
-                                class="fb-link" title="Facebook">
+                                class="fb-link" title="Facebook" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-                            </a> </div>
+                            </a>
+                        </div>
+                        <div class="icon-row-column">
+                            <a href="https://www.facebook.com/pages/category/Contractor/David-Hall-Masonry-168088283775373/"
+                                class="fb-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="column address-column">
                     <p class="address-title"> David Hall Masonry</p>
                     <p class="address-title">651 S. Stockton Ave </p>
                     <p class="address-title">Ripon, CA 95366 </p> <br />
-                    <a class="map-and-directions-link" href="https://www.google.com/maps/place/David+Hall+Masonry+Inc/@37.7341286,-121.1271381,17z/data=!3m1!4b1!4m5!3m4!1s0x80904507528f709b:0x658371044dbed239!8m2!3d37.7341244!4d-121.1249494?hl=en">Map & Directions [+]</a>
+                    <a class="map-and-directions-link"
+                        href="https://www.google.com/maps/place/David+Hall+Masonry+Inc/@37.7341286,-121.1271381,17z/data=!3m1!4b1!4m5!3m4!1s0x80904507528f709b:0x658371044dbed239!8m2!3d37.7341244!4d-121.1249494?hl=en"
+                        target="_blank" rel="noopener noreferrer">Map & Directions [+]</a>
                     <hr class="footer-hr">
-                    <a href="assets/EmploymentApplication-2020.pdf" class="employment-application-link">Job Application</a> <br>
-                    <a href="#" class="privacy-policy-link">Privacy Policy</a> <br>
+                    <a href="assets/EmploymentApplication-2020.pdf" class="employment-application-link" target="_blank"
+                        rel="noopener noreferrer">Job Application</a> <br>
+                    <a href="privacypolicy.html" class="privacy-policy-link">Privacy Policy</a> <br>
                     <a href="contact.html" class="contact-us-link">Contact Us</a>
                 </div>
             </div>
@@ -230,7 +281,7 @@ item.addEventListener('click', function () {
         </p>
     </footer>
 
-    
+
     <script src="script.js"></script>
 
 </body>
