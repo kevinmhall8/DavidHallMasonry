@@ -751,10 +751,10 @@ input {
     /* font-family: 'Lora', serif; */
     /* font-family: inherit; */
     /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 24px;
+    font-size: 20px;
     /* font-size: 24rem; */
     font-weight: normal;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     margin-bottom: 1.25rem;
     opacity: 1;
     /* text-rendering: optimizeLegibility; */
@@ -1009,7 +1009,7 @@ input {
     }
 }
 .about-txt {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Cinzel', Arial, Helvetica, sans-serif;
 }
 
@@ -1075,23 +1075,22 @@ input {
 
 @media (max-width: 903px) {
     .opening {
-        padding: 10% 0 0 0;
-        font-size: 24px;
-        
+        font-size: 20px;
+        line-height: 150%;
     }
 
 }
 @media (max-width: 509px) {
     .opening {
-        padding: 0;
-        font-size: 20px;
+        padding: 20;
+        font-size: 16px;
     }
 
 }
 
 @media (max-width: 327px) {
     .opening {
-        font-size: 16px;
+        font-size: 12px;
         
     }
 
@@ -1289,7 +1288,8 @@ background-position: center;
 background-size: 100% auto;
 display: flex;
 background-size: cover;
-height: 80vh;
+/* height: 90vh; */
+height: 100vh;
 /* opacity: 0.4; */
 background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/photos/buildingpic.jpg");
 
